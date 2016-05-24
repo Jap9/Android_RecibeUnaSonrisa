@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="feelingprojects.recibeunasonrisa.DialogBienvenido"
+    android:background="@color/white"
+    android:id="@+id/s">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Recibe Una Sonrisa"
+        android:id="@+id/presto"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="7dp"
+        android:textColor="#ff91d5fb"
+        android:textSize="20dp"
+        android:layout_marginBottom="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Postear esta publicación, implicará gastar X sonrisas"
+        android:id="@+id/usuarios"
+        android:layout_below="@+id/presto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="CONTINUAR"
+        android:id="@+id/registrarse"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff44fb80"
+        android:background="@color/no"
+        android:layout_below="@+id/usuarios"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="27dp"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="CANCELAR"
+        android:id="@+id/cancelar"
+        android:textColor="#fffb6e71"
+        android:background="@color/no"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_alignTop="@+id/registrarse"
+        android:layout_toRightOf="@+id/registrarse"
+        android:layout_toEndOf="@+id/registrarse" />
+
+</RelativeLayout>

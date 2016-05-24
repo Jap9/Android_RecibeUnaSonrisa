@@ -1,0 +1,135 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="vertical"
+    android:scrollbars="vertical"
+    android:background="#ff91d5fb">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ff91d5fb"
+        android:baselineAligned="false">
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:hint="Nombre"
+        android:maxLength="15"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/checkBox"
+        android:layout_toLeftOf="@+id/checkBox"
+        android:maxLines="1"
+        android:lines="1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="12dp"
+            android:textColor="@color/white"
+            android:textColorHint="#FFF0F0F0"
+            android:drawableBottom="@color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/apellidos"
+        android:layout_alignParentStart="true"
+        android:hint="Apellidos"
+        android:maxLength="25"
+        android:layout_below="@+id/text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/checkBox"
+        android:layout_alignEnd="@+id/checkBox"
+        android:lines="1"
+        android:maxLines="1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="#FFF0F0F0"
+        android:drawableBottom="@color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/usuarios"
+        android:layout_marginTop="45dp"
+        android:hint="Correo electronico"
+        android:maxLength="25"
+        android:layout_below="@+id/apellidos"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/apellidos"
+        android:layout_alignEnd="@+id/apellidos"
+        android:lines="1"
+        android:maxLines="1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="#FFF0F0F0"
+        android:drawableBottom="@color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contrasenya"
+
+        android:layout_below="@+id/usuarios"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/usuarios"
+        android:layout_alignEnd="@+id/usuarios"
+        android:hint="Contraseña"
+        android:maxLength="20"
+        android:lines="1"
+        android:maxLines="1"
+        android:layout_marginLeft="15dp"
+        android:password="true"
+        android:layout_marginRight="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="#FFF0F0F0"
+        android:drawableBottom="@color/white"/>
+        <EditText
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/telefono"
+        android:maxLength="11"
+
+        android:layout_above="@+id/checkBox"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="25dp"
+            android:hint="Número de teléfono (privado)"
+            android:drawableBottom="@color/white"/>
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:id="@+id/registrarse"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            style="@android:style/Widget.DeviceDefault.Light.Button"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/continua2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="35dp"
+            android:drawableBottom="@color/white"/>
+       ¡
+
+    </LinearLayout>
+</ScrollView>

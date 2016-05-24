@@ -1,0 +1,143 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="vertical"
+    android:scrollbars="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="105dp"
+            android:id="@+id/relativeLayout"
+            android:background="#ff91d5fb">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Nombre y Apellidos"
+                android:id="@+id/text"
+                android:textStyle="bold"
+                android:layout_toEndOf="@+id/image"
+                android:layout_marginLeft="26dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/image"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/image"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="29dp"
+                android:background="@drawable/imagen_default" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="560dp"
+            android:background="#fffb8e9a"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="DESCRIPCIÓN"
+                android:id="@+id/presto"
+                android:layout_marginLeft="29dp"
+                android:layout_marginTop="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/descripcio"
+                android:layout_below="@+id/presto"
+                android:layout_alignLeft="@+id/presto"
+                android:layout_alignStart="@+id/presto"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:hint="Necesito..."
+                android:textColor="@color/white"
+                android:textColorHint="#FFF0F0F0"
+                android:maxLines="5"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="INTERESADO EN:"
+                android:id="@+id/usuarios"
+                android:layout_below="@+id/descripcio"
+                android:layout_alignLeft="@+id/descripcio"
+                android:layout_alignStart="@+id/descripcio"
+                android:layout_marginTop="54dp"
+                android:textSize="20dp"
+                android:textColor="@color/white" />
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/radioGroup"
+                android:layout_below="@+id/usuarios"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp">
+
+                <RadioButton
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:text="Alguien que lo done"
+                    android:id="@+id/checkdonar"
+                    android:textColor="@color/white"
+                    android:checked="true"
+                    android:textSize="19dp"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alguien que lo deje"
+                    android:id="@+id/checkdejar"
+                    android:textColor="@color/white"
+                    android:checked="false"
+                    android:textSize="19dp"
+                    />
+            </RadioGroup>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:id="@+id/pedir"
+                android:background="@drawable/donarrr"
+                android:layout_marginTop="48dp"
+                android:layout_below="@+id/radioGroup"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

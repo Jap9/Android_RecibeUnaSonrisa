@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RUS</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bienvenida">bienvenida</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bienvenida1">Bienvenido a</string>
+    <string name="bienvenida2">Recibe Una Sonrisa</string>
+    <string name="slogan">Dona, Comparte y Gestiona</string>
+    <string name="ciudad">¿En qué ciudad vives?</string>
+    <string name="dialog1">Para utilizar funciones como publicar, donar,o gestionar comunidades, debes
+    registrarte, sin embargo no es obligatorio y puedes acceder como invitado para ver
+    las publicaciones.</string>
+    <string name="dialog2">Qué tipo de publicación quieres realizar?</string>
+    <string name="dialog3">Postear la publicacion implicará gastar X sonrisas.</string>
+    <string name="dialog4">Postear la publicacion implicará gastar X sonrisas.</string>
+    <string name="dialog5">Aceptar la donación implicará gastar X sonrisas.</string>
+    <string name="dialog6">Se va a enviar tu información de contacto a XXXX para que te contacte.</string>
+    <string name="dialog11">Para el funcionamiento de la aplicacion, debes tener conexion a Internet.</string>
+    <string name="dialog10">Para localizar comunidades cercanas, la ubicacion debe estar activada.</string>
+    <string name="title_activity_desplegable">desplegable</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_registro1">Registro1</string>
+    <string name="title_activity_registro2">Registro2</string>
+    <string name="title_activity_desplegable_registrat">Desplegable_registrat</string>
+    <string name="title_activity_fragment3_registrat">Fragment3_registrat</string>
+    <string name="title_activity_imatge_ampliada">Imatge_ampliada</string>
+    <string name="title_activity_filtrar">Filtrar</string>
+    <string name="title_activity_dialog_bienvenido">DialogBienvenido</string>
+    <string name="title_activity_dialog_registro2">DialogRegistro2</string>
+    <string name="title_activity_dialog_timeline">DialogTimeline</string>
+
+</resources>
